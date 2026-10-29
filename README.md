@@ -76,6 +76,8 @@ Tecnologias conhecidas no contexto do projeto: Python, Streamlit, SQLite, pandas
 
 Como ponto de partida para avaliação, a Fase 0 propõe uma aplicação Python com Streamlit e SQLite, usando pandas e Plotly apenas se forem necessários. A estrutura, a base de dados, a autenticação e a infraestrutura de execução ficam por decidir. O novo ambiente de desenvolvimento e a persistência devem ser independentes do programa antigo.
 
+Existe agora um primeiro rascunho do esquema relacional em [`database/schema.sql`](database/schema.sql). É uma proposta para discussão, não uma decisão final; representa colaboradores, postos, avaliações de formação, planeamentos, turnos, pedidos de ausência e histórico. Ainda não cria nem contém uma base de dados, e as regras que dependem de decisões pendentes devem ser validadas pela aplicação.
+
 ## Segurança e persistência
 
 - Não ligar a aplicação nova à base de dados antiga.
